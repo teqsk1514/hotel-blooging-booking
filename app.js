@@ -28,7 +28,7 @@ var commentRoutes = require("./routes/comments"),
 //     console.log('connected to mongodb');
 // });
 
-mongoose.connect('mongodb://ravi:teqsk1514@ds237700.mlab.com:37700/hotel', { useNewUrlParser: true }, (err, done) => {
+mongoose.connect(<use your mlab database>, { useNewUrlParser: true }, (err, done) => {
     if (err) {
 
         console.log('Not connected to mlab');
